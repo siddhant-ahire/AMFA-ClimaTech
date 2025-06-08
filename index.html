@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AMFA ClimaTech - Coming Soon</title>
+  <meta name="description" content="AMFA ClimaTech - Leading HVAC solutions in Mumbai. Providing innovative and energy-efficient air conditioning and ventilation systems for residential, commercial, and industrial spaces." />
+  <meta name="keywords" content="HVAC, Mumbai, air conditioning, ventilation, energy-efficient, AMFA ClimaTech, cooling systems, heating systems, industrial HVAC, commercial HVAC" />
+  <meta name="author" content="AMFA ClimaTech" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/public/favicon.ico" type="image/x-icon" />
+  <script src="script.js"></script>
+</head>
+<body>
+
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="/public/logo.png" alt="AMFA ClimaTech Logo" />
+        <h1>AMFA ClimaTech</h1>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-coming-soon no-card">
+        <h3>🚀 Coming Soon!</h3>
+        <p>
+          We're working hard to bring you something amazing.<br />
+          Our full website experience is <span style="color:#1976d2;font-weight:600;">launching soon</span>.<br />
+        </p>
+      </div>
+      <button onclick="showContactModal()">Explore</button>
+    </section>
+
+    <div class="notice" id="notice">
+      🚀 We’re almost ready! Our full experience is launching soon. Stay connected.
+    </div>
+
+    <!-- Contact Modal -->
+    <div id="contact-modal" class="contact-modal">
+      <div class="contact-modal-content">
+        <span class="close-modal" onclick="closeContactModal()">&times;</span>
+        <h3>Contact</h3>
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Email address" required />
+          <textarea rows="2" placeholder="Message" required style="resize:vertical;"></textarea>
+          <button type="submit">Submit</button>
+        </form>
+        <p class="info">
+          211A, C wing, 2nd Flr., Kailash Industrial Estate, Vikhroli (West),<br />
+          Mumbai - 400 079. Maharashtra<br />
+          Phone: <span id="copy-phone">+91-9064562832</span>
+          <span class="copy-icon" data-target="copy-phone" data-message="Phone number copied!" title="Copy phone" aria-label="Copy phone" tabindex="0" role="button">📋<span class="copy-tooltip"></span></span><br />
+          Email: <span id="copy-email">rajeshbhoir@amfa-ac.com</span>
+          <span class="copy-icon" data-target="copy-email" data-message="Email copied!" title="Copy email" aria-label="Copy email" tabindex="0" role="button">📋<span class="copy-tooltip"></span></span>
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      // Attach event listeners if needed
+    });
+  </script>
+
+</body>
+</html>
